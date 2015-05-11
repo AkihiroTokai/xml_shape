@@ -24,7 +24,7 @@
            android:background="@drawable/droid_head"/>
 
         <View
-            android:id="@+id/droid_body"
+
             android:layout_width="170dip"
             android:layout_height="10dip"
             android:layout_alignBottom="@id/droid_head"
@@ -145,6 +145,8 @@
               android:layout_margin="16dp"/>
 
       </RelativeLayout>
+
+
       <RelativeLayout
           android:layout_width="fill_parent"
           android:layout_height="fill_parent"
@@ -162,6 +164,7 @@
               android:layout_height="155dip"
               android:layout_toRightOf="@+id/droid_arm_left"
               android:background="@drawable/droid_body_and_leg"/>
+
           <View
               android:id="@+id/droid_arm_left"
               android:layout_width="40dip"
@@ -169,6 +172,7 @@
               android:layout_marginLeft="10dip"
               android:layout_toRightOf="@+id/droid_body"
               android:background="@drawable/droid_arm"/>
+
           <View
               android:id="@+id/droid_leg_right"
               android:layout_width="40dip"
