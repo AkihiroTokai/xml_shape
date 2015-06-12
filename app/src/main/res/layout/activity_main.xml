@@ -4,35 +4,35 @@
     android:layout_height="fill_parent"
     android:background="#ffffff">
 
-   <FrameLayout
+    <FrameLayout
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_gravity="center"
        android:padding="0dip">
 
-     <RelativeLayout
-       android:layout_width="fill_parent"
-       android:layout_height="fill_parent">
+        <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent">
 
-            <View
-               android:id="@+id/droid_head"
-               android:layout_width="170dip"
-               android:layout_height="160dip"
-               android:layout_marginLeft="50dip"
-               android:layout_marginRight="50dip"
-               android:layout_marginTop="20dip"
-               android:background="@drawable/droid_head" />
+       <View
+           android:id="@+id/droid_head"
+           android:layout_width="170dip"
+           android:layout_height="160dip"
+           android:layout_marginLeft="50dip"
+           android:layout_marginRight="50dip"
+           android:layout_marginTop="20dip"
+           android:background="@drawable/droid_head" />
 
-            <View
-                android:id="@+id/droid_body"
-                android:layout_width="170dip"
-                android:layout_height="10dip"
-                android:layout_alignBottom="@id/droid_head"
-                android:layout_marginBottom="80dip"
-                android:layout_marginLeft="50dip"
-                android:layout_marginRight="50dip"
-                android:background="@color/white"/>
-
+        <View
+            android:id="@+id/droid_body"
+            android:layout_width="170dip"
+            android:layout_height="10dip"
+            android:layout_alignBottom="@id/droid_head"
+            android:layout_marginBottom="80dip"
+            android:layout_marginLeft="50dip"
+            android:layout_marginRight="50dip"
+            android:background="@color/white"/>
+            <!--
             <View
                 android:layout_width="12dip"
                 android:layout_height="12dip"
@@ -144,20 +144,20 @@
                   android:layout_alignStart="@+id/droid_eye_right"
                   android:layout_marginLeft="8dp"
                   android:layout_margin="16dp"/>
+              -->
+      </RelativeLayout>
 
-          </RelativeLayout>
 
-
-          <RelativeLayout
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:layout_marginTop="95dip">
-
-              <View
-                  android:layout_width="40dip"
-                  android:layout_height="110dip"
-                  android:layout_marginRight="10dip"
-                  android:background="@drawable/droid_arm"/>
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:layout_marginTop="95dip">
+          <!--
+             <View
+              android:layout_width="40dip"
+              android:layout_height="110dip"
+              android:layout_marginRight="10dip"
+              android:background="@drawable/droid_arm"/>
 
               <View
                   android:id="@+id/droid_body"
@@ -172,7 +172,7 @@
                   android:layout_height="110dip"
                   android:layout_marginLeft="10dip"
                   android:layout_toRightOf="@+id/droid_body"
-                  android:background="@drawable/droid_arm"/>    -->
+                  android:background="@drawable/droid_arm"/>
 
               <View
                   android:id="@+id/droid_leg_right"
@@ -180,7 +180,7 @@
                   android:layout_height="55dip"
                   android:layout_alignTop="@+id/droid_leg_left"
                   android:background="@drawable/droid_body_and_leg"/>
-
+               -->
           </RelativeLayout>
        </FrameLayout>
 
